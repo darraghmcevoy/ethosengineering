@@ -1,0 +1,992 @@
+BLUEBEAM REVU
+TIPS
+&
+TRICKS
+
+i
+
+INSTRUCTIONS
+
+WORK SPACE
+
+INTRODUCTION
+At Bluebeam we’ve always developed tools and features that enable workflows to help you get your
+work done faster, with higher quality and in a way that meets the specific needs of your projects and
+how you prefer to work. We believe that software should complement your expertise, not try to
+replace it. This is our purpose, to empower people to advance the way the world is built.
+One of the things we hear most often from our users is that they feel like they are just scratching the
+surface of what Revu can do. With so many tools and features included, it’s not hard to feel that
+way, so, we wanted to help! We absolutely recommend visiting our free training videos page and
+exploring our robust training options, yet, there is something else we want to share…
+…Tips and Tricks!
+Tips and Tricks are those little things that people tend to stumble into and think, where has this
+been all my life?! With this document we hope to share with you some of Revu’s most popular tips
+and tricks to make you even more efficient with Revu’s tools and features. However, this comes with
+a warning; mastery of these tips and tricks may result in hero status among colleagues. If you’re
+ready to take that on, keep going!
+
+How to use this document.
+This guide is formatted so that the instructions for each tip is listed on the left side while a
+workspace is provided on the right to try it out for yourself. For those tips that aren’t markup-based,
+we provided an illustration on the right side. We have set up many of the workspaces for you
+already, so you can focus only on the instructions as written. With that in mind, save a copy of the
+file each time you run through it in case you make changes that render the intent of the workspace
+unclear.
+The table of contents is hyperlinked so you can quickly navigate to specific tips. You can return to
+the table of contents by clicking the “back to contents” hyperlink in the lower right-hand corner of
+each page.
+
+Share Tips & Tricks of your own!
+There is also a blank page for you to add any tips and tricks you discover on your own. Feel free to
+write up the instructions and share your enhanced guide with your teammates!
+
+ii
+
+CONTENTS
+Interface...................................................................................................................................1
+1.
+
+Toggle tabs open/collapsed .....................................................................................................1
+
+2.
+
+Auto-hide Panel Access ............................................................................................................1
+
+3.
+
+Click and drag panels................................................................................................................1
+
+4.
+
+Click and drag files....................................................................................................................2
+
+5.
+
+Quick open 2nd instance of Revu .............................................................................................2
+
+6.
+
+File Access sort options ............................................................................................................2
+
+7.
+
+Pin a tool to a toolbar ...............................................................................................................3
+
+8.
+
+Pin a toolset to a toolbar..........................................................................................................3
+
+Navigation ...............................................................................................................................4
+9.
+
+Panning with an active markup tool ......................................................................................4
+
+10.
+
+Switching between scroll and zoom mode ........................................................................4
+
+11.
+
+Opening other files in Windows folder...............................................................................4
+
+12.
+
+Open files in the background ..............................................................................................5
+
+Markups: Editing .....................................................................................................................6
+14.
+
+Multi-select markups ...........................................................................................................6
+
+15.
+
+Multi-select markups ...........................................................................................................6
+
+16.
+
+Move entire Callout markup ...............................................................................................6
+
+17.
+
+Move markups orthogonally ...............................................................................................7
+
+18.
+
+Orthogonal markups ............................................................................................................7
+
+19.
+
+Move markup in the Properties panel using arithmetic..................................................7
+
+20.
+
+Quick copy of a markup .......................................................................................................8
+
+21.
+
+Paste in place ........................................................................................................................8
+
+22.
+
+Rotating by 1 degree.............................................................................................................8
+
+23.
+
+Editing components of a Group markup............................................................................9
+
+Markups: Squares, Circles, Arcs ..........................................................................................10
+
+i
+
+24.
+
+Creating a perfect circle or square ...................................................................................10
+
+25.
+
+Changing a rectangle to a square .....................................................................................10
+
+26.
+
+Changing an ellipse to a circle...........................................................................................10
+
+27.
+
+Resizing a circle from the center ......................................................................................11
+
+28.
+
+Creating a circle from the center point............................................................................11
+
+29.
+
+Convert to Arc .....................................................................................................................11
+
+30.
+
+Convert to Arc .....................................................................................................................12
+
+31.
+
+Three-point Arc ...................................................................................................................12
+
+32.
+
+Delete last control point ....................................................................................................12
+
+33.
+
+Add/Subtract a control point.............................................................................................13
+
+34.
+
+Temporarily turn off snap .................................................................................................13
+
+Markups: Callout, Text Box, Clouds ....................................................................................14
+35.
+
+Add a leader to a Callout....................................................................................................14
+
+36.
+
+Add a leader to a Callout....................................................................................................14
+
+37.
+
+Autosize text box ................................................................................................................14
+
+38.
+
+Autosize text box ................................................................................................................15
+
+39.
+
+Autosize text........................................................................................................................15
+
+40.
+
+Change shape or Cloud markup to highlight...................................................................15
+
+41.
+
+Highlighted text to comments column ............................................................................16
+
+42.
+
+Translate markups..............................................................................................................16
+
+Markups: Snapshot...............................................................................................................17
+43.
+
+Non-rectangular Snapshot ................................................................................................17
+
+44.
+
+Snapshot content................................................................................................................17
+
+45.
+
+Copy Page to Snapshot .......................................................................................................17
+
+46.
+
+Change Snapshot colors .....................................................................................................18
+
+47.
+
+Change Snapshot colors .....................................................................................................18
+
+Measurements ......................................................................................................................19
+
+ii
+
+48.
+
+Move measurement caption .............................................................................................19
+
+49.
+
+Show/unshow caption leader line ....................................................................................19
+
+50.
+
+Autofill cutouts ...................................................................................................................19
+
+INSTRUCTIONS
+
+WORK SPACE
+
+INTERFACE
+1.
+
+Toggle tabs open/collapsed
+1. Shift + F4
+
+2.
+
+Auto-hide Panel Access
+1. Right-click on panel bar
+2. Select Auto-hide Panel Access
+
+3.
+
+Click and drag panels
+1. Click and hold the icon of the panel and
+drag to a new location.
+
+1
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+4.
+
+WORK SPACE
+
+Click and drag files
+1. Click the file tab and drag to a new
+location
+
+5.
+
+Quick open 2nd instance of Revu
+1. Shift + click the Revu icon in your
+Windows taskbar to launch a second
+instance.
+
+6.
+
+File Access sort options
+1. Go to File Access panel
+2. Click sort options in upper-right corner
+of Recents
+
+2
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+7.
+
+WORK SPACE
+
+Pin a tool to a toolbar
+1. Navigate to the tool
+2. Click push-pin to the right of the tool
+3. Select what toolbar to add it to
+
+8.
+
+Pin a toolset to a toolbar
+1.
+2.
+3.
+4.
+
+3
+
+Navigate to the toolset in the Tool Chest
+Click the tool set gear wheel
+Click push-pin
+Select what toolbar to add it to
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+
+NAVIGATION
+9.
+
+Panning with an active markup
+tool
+1.
+2.
+3.
+4.
+
+10.
+
+Select a tool
+Click and hold spacebar
+Use your mouse to pan
+Release spacebar and the tool will still
+be active
+
+Switching between scroll and
+zoom mode
+
+1. Click and hold Ctrl
+2. Use your mouse wheel to zoon in/out
+
+11.
+
+Opening other files in Windows
+folder
+
+1. With a file open, hit Alt+Page Up or
+Alt+Page Down to open other files in
+that folder.
+
+4
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+12.
+
+WORK SPACE
+
+Open files in the background
+
+1. Go to File Access panel
+2. Click and hold Ctrl
+3. Click the files you want to open but not
+see
+
+13.
+
+Open PDF on startup
+1.
+2.
+3.
+4.
+
+5
+
+Go to Preferences (Ctrl + K)
+Go to the General tab on the left.
+Go to the Options tab at the top.
+Browse to a file to open with Revu
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+
+MARKUPS: EDITING
+14.
+
+Multi-select markups
+
+1. Drag right to left to select any markup
+you touch
+2. Drag left to right to only select markups
+that are fully enclosed by the selection
+box
+
+15.
+
+Multi-select markups
+1. Press and hold Shift
+2. Select the markups
+
+16.
+
+Move entire Callout markup
+
+1. Select the Callout markup
+2. Press and hold Alt
+3. Click and drag to move the markup
+
+Move this callout
+markup
+
+6
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+17.
+
+WORK SPACE
+
+Move markups orthogonally
+
+1. Select markup
+2. Press and hold Shift
+3. Drag vertically or horizontally
+
+18.
+
+Orthogonal markups
+
+1. Click the first point of markup (line,
+arrow, etc.)
+2. Press and hold Shift
+3. Click second point
+
+19.
+
+Move markup in the Properties
+panel using arithmetic
+
+1. Select markup
+2. Open Properties Panel
+3. Under Layout, type in the X and Y boxes
+the distance you want to add (+) or
+subtract (-) from the current position of
+the markup along the X and Y
+dimensions, respectively.
+
+7
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+20.
+
+WORK SPACE
+
+Quick copy of a markup
+1. Press and hold Ctrl on your keyboard
+2. Click and drag markup
+
+21.
+
+Copy this markup
+
+Paste in place
+
+1. Copy markup
+2. Go to new page
+3. Press Ctrl + Shift + V
+
+22.
+1.
+2.
+3.
+4.
+
+8
+
+Rotating by 1 degree
+Select the markup
+Click the markup’s rotate control point
+Press and hold Shift
+Rotate
+
+D
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+23.
+
+WORK SPACE
+
+Editing components of a Group
+markup
+
+1. Select a Group markup
+2. Press and hold Alt
+3. Select and manipulate an individual
+component of the Group
+
+Paste in place continued…
+
+9
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+
+MARKUPS: SQUARES, CIRCLES,
+ARCS
+24.
+
+Creating a perfect circle or
+square
+
+1. Select the Rectangle or Ellipse tool
+2. Click first point of the circle or square
+bounding box, respectively
+3. Press and hold Shift
+4. Click second point
+
+25.
+
+Changing a rectangle to a
+square
+
+1. Select the rectangle
+2. Press and hold Shift
+3. Click a corner control point of the
+rectangle
+
+26.
+
+Changing an ellipse to a circle
+
+1. Select the ellipse
+2. Press and hold Shift
+3. Click any control point of the ellipse
+
+10
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+27.
+
+WORK SPACE
+
+Resizing a circle from the center
+
+1. Select the circle
+2. Press and hold Shift
+3. Click a side, top, or bottom control point
+of the ellipse and drag
+
+28.
+
+Creating a circle from the center
+point
+
+1. Select Ellipse tool
+2. Press and hold Alt
+3. Click where you want the center of the
+circle to be and drag outward
+
+29.
+
+Convert to Arc
+
+1. Right-click on a segment of a polyline
+2. Select Convert to Arc
+3. Manipulate the Arc
+
+11
+
+EETING 208
+
+MEETING 2
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+30.
+
+Convert to Arc
+
+1. Press and hold ctrl
+2. Select control point of polyline (Cursor
+will have small arc to the lower right)
+3. Manipulate the Arc
+
+31.
+
+EETING 208
+
+MEETING 2
+
+EETING 208
+
+MEETING 2
+
+Three-point Arc
+
+1. Select the Arc tool
+2. Press and hold Alt
+3. Click three points along arc
+
+32.
+
+WORK SPACE
+
+Delete last control point
+
+1. While using the Polyline, Perimeter, or
+Polylength tools, hit Backspace to undo
+the last control point
+
+12
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+33.
+
+WORK SPACE
+
+Add/Subtract a control point
+
+1. Hold Shift and hover over a Polyline,
+Perimeter, Polylength, or Area markup.
+2. The cursor will display a small + if
+located over a segment of the markup.
+Click to add a control point.
+3. The cursor will display a – if located
+over an existing control point.
+Click to subtract that control point.
+
+34.
+
+Temporarily turn off snap
+
+1. Hold Ctrl when making or editing a
+markup
+
+13
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+
+MARKUPS: CALLOUT, TEXT BOX,
+CLOUDS
+35.
+
+Add a leader to a Callout
+
+1
+
+Point to both 1 & 2
+
+1. Right click on callout markup
+2. Select “Add Leader”
+
+2
+
+36.
+
+Add a leader to a Callout
+
+1. Select Callout
+2. Press and hold Shift
+3. Hover over the “elbow” control point of
+the callout leader line until you see a
+small plus sign next to the cursor
+4. Click on the elbow control point and a
+new leader will appear
+
+1
+
+Point to both 1 & 2
+
+2
+
+37.
+
+Autosize text box
+
+1. Right-click on any markup with a text
+box associated with it
+2. Select Autosize Text Box
+
+14
+
+Autosize text box
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+38.
+
+Autosize text box
+
+1. Click on a markup with a text box
+associated with it
+2. Click button in the Properties Toolbar
+
+39.
+
+Autosize text
+
+Change shape or Cloud markup
+to highlight
+
+1. Click on a shape or Cloud markup with
+an opaque fill.
+2. Select the highlight button in the
+Properties Toolbar
+
+15
+
+Autosize text box
+
+Autosize text
+
+1. Click on a markup with a text box
+associated with it
+2. Click the following button in the
+Properties Toolbar
+
+40.
+
+WORK SPACE
+
+SURPRISE!
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+41.
+
+Highlighted text to comments
+column
+
+1. Use the Highlight tool to highlight text
+2. That text will now appear in the
+comments column of the Markups List
+for that Highlight markup
+
+42.
+
+WORK SPACE
+
+Highlight this text.
+
+Translate markups
+
+1. Document>translate markups
+
+Where is the library?
+Copy and paste the above markup
+to a new PDF and translate.
+
+16
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+STORAGE 258A
+
+MARKUPS: SNAPSHOT
+258A
+
+43.
+
+Non-rectangular Snapshot
+
+1. Instead of clicking and dragging, click
+and release to go point to point.
+
+44.
+
+Snapshot content
+
+1. Go to Edit>PDF Content>Snapshot
+Content
+
+258B
+
+Take a
+Snapshot of
+the Men's
+restroom and
+paste in the
+dashed area
+below.
+
+S
+258
+
+Check
+rise/run
+
+2
+
+Add
+accessibility
+details to
+set
+
+258A
+
+UP
+
+Area
+of COPY 2
+refuge
+
+258A
+
+258
+
+STAIR 259
+258
+
+45.
+
+MEN'S RR 258
+
+259
+
+Paste here.
+
+Copy Page to Snapshot
+
+1. Go to Thumbnails panel
+2. Right-click on the page you want to
+Snapshot
+3. Click Copy Page to Snapshot
+
+17
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+46.
+
+Change Snapshot colors
+
+1. Right-click on Snapshot
+2. Select Change Colors
+3. Select source color that you would like
+to change
+4. Select color you would like to change
+the source color to
+5. Click OK
+
+47.
+
+205
+
+Change Snapshot colors
+
+1. Select Snapshot markup
+2. Click Change Colors button in the
+Properties toolbar
+3. Select Source color that you would like
+to change.
+4. Select color you would like to change
+the source color to.
+5. Click OK
+
+18
+
+WORK SPACE
+
+205
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+WORK SPACE
+
+MEASUREMENTS
+48.
+
+Move measurement caption
+
+1. Hold Shift
+2. Click and drag caption
+
+100 sf 203
+MEETING
+
+203
+
+49.
+
+Show/unshow caption leader
+line
+
+1. Select measurement
+2. Go to Properties Panel
+3. Check/uncheck Show Caption Leader
+Line
+
+MEETING 203
+9'-7"
+
+50.
+1.
+2.
+3.
+4.
+
+19
+
+203
+
+Autofill cutouts
+Select Area Measurement tool
+Hover over one cutout to fill
+Hold Shift
+Click to fill all enclosed cutouts
+
+OPEN OFFICE 244
+
+673 sf
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+20
+
+WORK SPACE
+
+BACK TO CONTENTS
+
+INSTRUCTIONS
+
+21
+
+WORK SPACE
+
+BACK TO CONTENTS
+
+

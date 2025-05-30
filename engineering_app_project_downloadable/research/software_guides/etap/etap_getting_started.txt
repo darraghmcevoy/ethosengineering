@@ -1,0 +1,3497 @@
+®
+
+ETAP 14.0.0
+Demo
+Getting Started
+
+Operation Technology, Inc.
+(949) 900-1000
+Fax: (949) 462-0200
+E-Mail: sales@etap.com
+www.etap.com
+
+Registered to ISO 9001:2008
+
+Certification No. 10002889
+
+This document is confidential and proprietary to operation technology, inc. And may not be reproduced,
+published, or disclosed to others without the written authorization of Operation Technology, Inc.
+Copyright 2015
+
+Getting Started
+
+Table of Contents
+
+Table of Contents
+1.
+
+INTRODUCTION ............................................................................................................................................ 1
+
+2.
+
+PRODUCT DESCRIPTION ............................................................................................................................ 2
+2.1 Modeling ......................................................................................................................................................................... 4
+2.2 Program Features ............................................................................................................................................................ 6
+2.3 One-Line Diagrams ......................................................................................................................................................... 7
+2.4 One-Line Diagram Features ............................................................................................................................................ 8
+2.5 3-D Database................................................................................................................................................................. 10
+2.6 Presentations ................................................................................................................................................................. 11
+2.7 Configurations (Status) ................................................................................................................................................. 12
+2.8 Revision Data (Engineering Properties) ........................................................................................................................ 13
+2.9 ETAP Wizards .............................................................................................................................................................. 14
+2.10 Scenario Wizard .......................................................................................................................................................... 15
+2.11 Study Wizard .............................................................................................................................................................. 16
+2.12 Project Wizard ............................................................................................................................................................ 17
+2.15 Libraries ...................................................................................................................................................................... 18
+2.20 Active Error Viewer .................................................................................................................................................... 19
+
+DEMO RESTRICTIONS .......................................................................................................................................... 19
+3.
+
+DEMO SETUP ................................................................................................................................................ 22
+System Requirements.......................................................................................................................................................... 22
+
+4.
+
+DEMO STRUCTURE .................................................................................................................................... 23
+
+5.
+
+INTERFACE MAPS....................................................................................................................................... 25
+5.1 Edit Mode ..................................................................................................................................................................... 25
+5.2 Study Modes ................................................................................................................................................................. 27
+
+6.
+
+TUTORIAL ..................................................................................................................................................... 28
+6.1 Building a One-Line Diagram ....................................................................................................................................... 30
+6.2 Load Flow Analysis ...................................................................................................................................................... 35
+6.3 Unbalanced Load Flow Analysis .................................................................................................................................. 38
+6.4 Short-Circuit Analysis................................................................................................................................................... 41
+6.5 Arc Flash Analysis ........................................................................................................................................................ 45
+6.6 Motor Acceleration Analysis ........................................................................................................................................ 54
+6.7 Harmonic Analysis........................................................................................................................................................ 61
+6.8 Transient Stability Analysis .......................................................................................................................................... 65
+6.9 Protective Device Coordination (Star) .......................................................................................................................... 69
+6.10 Optimal Power Flow Analysis .................................................................................................................................... 82
+6.11 Reliability Analysis ..................................................................................................................................................... 84
+6.12 DC Load Flow Analysis .............................................................................................................................................. 86
+6.13 DC Short-Circuit Analysis .......................................................................................................................................... 91
+6.14 Battery Sizing and Discharge ...................................................................................................................................... 94
+6.15 Underground Raceway Systems.................................................................................................................................. 98
+6.16 Ground Grid Systems ................................................................................................................................................ 102
+6.17 Cable Pulling Systems .............................................................................................................................................. 105
+6.18 Panel Systems ........................................................................................................................................................... 108
+6.19 Output Reports .......................................................................................................................................................... 112
+
+Operation Technology, Inc.
+
+i
+
+ETAP 14.0.0 Demo
+
+Getting Started
+
+Introduction
+
+1. Introduction
+As part of our ongoing commitment to exceptional customer support, we present to you the ETAP 14.0.0
+Demo. We acknowledge you for taking the first step in viewing the most popular and powerful electrical
+engineering analysis and management tools established as a world leader in power system design,
+analysis, and monitoring.
+ETAP 14 is a true 64 bit program developed for the Microsoft® Windows® 2008 R2 (SP1), 2012/R2, 7
+(SP1), 8/8.1, 10 operating systems. This demo is fully interactive and allows you to make changes to the
+one-line diagram, run system studies, and graphically review study results - just like the full, commercial
+release of the program. It gives you the opportunity to explore the many features and capabilities of ETAP
+including Arc Flash, Load Flow, and AC/DC Short-Circuit (Refer to the demo restrictions document for a
+full list of capabilities)
+Operation Technology, Inc. values the support and dedication from our highly satisfied group of users. As
+part of our assurance to achieve excellence, thousands of hours of design and engineering experience have
+gone into the overall development of this software. We have combined state-of-the-art software
+development experience with real-life, practical engineering know-how to create intelligent and userfriendly engineering software. A novice engineer can use it easily, and yet it has sophisticated capabilities
+that professional engineers require. Enjoy your tour through our software and experience for yourself why
+ETAP is the leader in power system analysis and management tools worldwide.
+
+Operation Technology, Inc.
+
+1
+
+ETAP 14.0.0 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2. Product Description
+ETAP is a fully graphical electrical power system analysis program that runs on Microsoft® Windows®
+2008 R2 (SP1), 2012/R2, 7 (SP1), 8/8.1, 10 operating systems. In addition to the standard offline
+simulation modules, ETAP can utilize real-time operating data for advanced monitoring, real-time
+simulation, optimization, and high-speed intelligent load shedding. However, only offline simulation
+modules are included in the ETAP 14.0.0 Demo.
+
+ETAP has been designed and developed by engineers for engineers to handle the diverse discipline of
+power systems in one integrated package with multiple interface views such as AC and DC networks,
+cable raceways, ground grid, GIS, panels, protective device
+coordination/selectivity, and AC and DC control system diagrams.
+ETAP allows you to work directly with graphical one-line diagrams,
+underground cable raceway systems, three-dimensional cable systems, advanced
+time-current coordination and selectivity plots, geographic information system
+schematics (GIS), as well as three-dimensional ground grid systems. The
+program has been designed according to three key concepts:
+
+Operation Technology, Inc.
+
+2
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Virtual Reality Operation
+The program operation resembles real electrical system operation as closely as possible. For example,
+when you open or close a circuit breaker, place an element out of service, or change the operating status
+of motors, the de-energized elements and subsystems are indicated on the one-line diagram in gray. ETAP
+incorporates new concepts for determining protective device coordination directly from the one-line
+diagram.
+
+Total Integration of Data
+ETAP combines the electrical, logical, mechanical, and physical attributes of system elements in the same
+database. For example, a cable not only contains data representing its electrical properties and physical
+dimensions, but also information indicating the raceways through which it is routed. Thus, the data for a
+single cable can be used for load flow or short-circuit analyses (which require electrical parameters and
+connections) as well as cable ampacity derating calculations (which require physical routing data). This
+integration of the data provides consistency throughout the system and eliminates multiple data entry for
+the same element.
+
+Simplicity in Data Entry
+ETAP keeps track of the detailed data for each electrical apparatus. Data editors can speed up the data
+entry process by requiring the minimum data for a particular study. To achieve this, we have structured
+the property editors in the most logical manner for entering data for different types of analysis or design.
+ETAP’s one-line diagram supports a number of features to assist you in constructing networks of varying
+complexities. For example, each element can individually have varying orientations, sizes, and display
+symbols (IEC or ANSI). The one-line diagram also allows you to place multiple protective devices
+between a circuit branch and a bus.
+ETAP provides you with a variety of options for presenting or viewing your electrical system. These
+views are called presentations. The location, size, orientation, and symbol of each element can be
+different in each presentation. Additionally, protective devices and relays can be displayed (visible) or
+hidden (invisible) for any particular presentation. For example, one presentation can be a relay view
+
+Operation Technology, Inc.
+
+3
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+where all protective devices are displayed. Another presentation may show a one-line diagram with some
+circuit breakers shown and the rest hidden (a layout best suited for load flow results).
+Among ETAP’s most powerful features are the composite network and motor elements. Composite
+elements allow you to graphically nest network elements within themselves to an arbitrary depth. For
+example, a composite network can contain other composite networks, providing the capability to
+construct complex electrical networks while still maintaining a clean, uncluttered diagram that displays
+what you want to emphasize - yet the next level of system detail is within easy reach of your mouse.
+Power is at your fingertips.
+We consider ETAP to be the foremost-integrated database for electrical systems, allowing you to have
+multiple presentations of a system for different analysis or design purposes.
+
+2.1 Modeling
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Virtual reality operation
+Total integration of data (electrical, logical, mechanical, and physical attributes)
+Looped and radial systems
+Unlimited isolated subsystems
+No system connection limitations
+Multiple loading conditions
+Multi-level nesting of subsystems
+Advanced sparse matrix techniques
+User access control and data validation
+Asynchronous calculations, allow multiple modules to calculate simultaneously
+Database transitioning reduces the risk of database loss during a power outage
+3-phase and single-phase modeling including panels and subpanels
+
+Operation Technology, Inc.
+
+4
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+An Example of Simultaneous Cable Derating, Short Circuit, and Load Flow Studies
+
+Operation Technology, Inc.
+
+5
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.2 Program Features
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Five levels of automatic error checking
+Dynamic help line and error messaging
+Message logger to track program usage and access
+Multiple user access levels
+ODBC (open database connectivity)
+Manages maintenance data via info, remarks, and comment pages
+Merge independent ETAP project files
+Integrated 1-phase, 3-phase, and DC systems
+Integrated one-line diagram and underground raceway systems
+Integrated one-line diagram and device coordination/selectivity module
+Common database for all studies
+Simplicity in data entry
+Multiple subsystems and swing machines
+User-controlled auto save and transaction
+User-controlled default settings for all components
+Typical data for motors, generators, transformers, reactors, governors, and exciters
+Individual LTC time delays (initial and operating)
+No voltage limitations
+Unlimited protective and metering device connections to branches and loads
+Unlimited load connections to a single bus
+Any system frequency
+English and metric unit systems
+25 character component IDs
+Raw manufacturer data entry
+Individual and global load demand and diversity factors
+Temperature sensitive cable resistance for all studies
+Element navigator
+Lumped loading
+Equipment cables for loads, eliminating requirement for terminal buses
+Edited by and checked by data stamping
+Date stamping of all data changes
+Intelligent editors with user-defined data fields
+Analysis-dependent data entry requirements
+Multiple user network support
+Compatible database with the ETAP Real-Time module’s real-time monitoring, simulation, and
+supervisory control (Real-Time module is not active in the Demo)
+
+Operation Technology, Inc.
+
+6
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.3 One-Line Diagrams
+ETAP provides a fully graphical editor to construct your one-line diagram. From the One-Line Diagram
+Edit toolbar, you can graphically add, delete, undo, redo, move, or connect elements; zoom in or out;
+display grid on or off; change element size, orientation, alignment, symbol, or visibility; enter properties;
+set operating status; etc.
+
+You can use composite networks and motors with unlimited nesting capabilities to create uncluttered and
+easy to follow one-line diagrams.
+Composite networks allow up to 20
+connections from outside the network,
+making them very flexible so they can be
+used in a variety of configurations.
+Note that the nesting capabilities of a oneline diagram do not affect the calculation
+results in any way. Calculation programs
+consider all one-line diagram components
+nested to any level.
+
+Operation Technology, Inc.
+
+7
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.4 One-Line Diagram Features
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Autobuild
+Datablock
+Data Manager
+Ground grid systems
+Multiple loading categories (conditions) with individual percent loading
+Unlimited one-line diagram nesting for subsystems, MCCs, etc.
+Simultaneous view of one-line diagram presentations
+Simultaneous view of system configurations
+Simultaneous view of different study results
+One-Line Diagram Templates
+Auto-Select
+Symbols Quick Pick
+Phase adapters
+Automatic bus insertion
+Find elements from editors or the project window
+Grouping/ungrouping of elements
+Change size, symbol, orientation, and alignment of elements, individually and globally
+ActiveX (programmable objects)
+Graphically fault/clear fault from buses
+Selectable zoom-to-fit
+State-of-the-art built-in graphic user interface
+Drag-and-drop, cut and paste, undo and redo, zooming, etc.
+Built-in ETAP CAD system
+XML data exchange
+Export one-line diagrams to third party CAD systems via DXF and metafile formats
+Import OLE objects (text, pictures, spreadsheets, GIS maps, etc.)
+Import ETAP DOS project files
+Import ASCII project files
+Execute external programs
+Customizable graphical display of results annotations
+Customizable graphical display of nameplate data annotations
+Interchangeable ANSI and IEC element symbols
+Multiple sizing and rotation of element symbols
+Multi-color symbols and annotations
+Supports True Type fonts
+Hide and show protective devices per presentation
+Remote connectors
+Graphical operation (open/close) of switching devices in edit or study modes
+Display of fixed tap and load tap changer (LTC) positions on the one-line diagram
+Direct device coordination from the one-line diagram
+Comprehensive printing/plotting capabilities
+Individual and global section of elements, objects, and composites
+Schedule manager for system components
+Customizable output reports (Crystal Reports)
+ASCII output reports
+
+Operation Technology, Inc.
+
+8
+
+ETAP 14 Demo
+
+Getting Started
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Analysis Capabilities
+
+Output report manager for both ASCII files and Crystal Reports
+Access database output reports
+Crystal Reports for all library data
+Comprehensive summary reports
+Customizable output plots
+Report status of loads and protective devices for all configurations
+System dumpster with unlimited cells for storage and retrieval of deleted components
+Resizable, floating/attachable toolbars for each study
+Keyboard Shortcuts
+
+Operation Technology, Inc.
+
+9
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.5 3-D Database
+ETAP uses a 3-D database concept to implement presentations, configurations, and revision data. The use
+of this multi-dimensional database concept allows you to independently select a particular presentation,
+status configuration, or revision data within the same project database.
+
+•
+
+Presentations
+Unlimited, independent graphical presentations of the one-line diagram to represent the one-line
+diagrams for any purpose such as impedance diagram, study results, relay diagrams, plot plan,
+etc.
+
+•
+
+•
+
+Configurations (Status)
+Unlimited, independent system configurations to keep track of the status of switching devices
+(open and closed), motors and loads (continuous, intermittent, and spare), MOVs (open, closed,
+throttling, and spare).
+
+Revision Data (Engineering Properties)
+Base data and unlimited Revision data to keep track of changes and modifications of the
+engineering properties (nameplate, settings, etc.) of elements.
+
+These three system components are organized in an orthogonal fashion to provide you with great power
+and flexibility in constructing and manipulating your ETAP project. Using the concept of Presentation,
+Status Configuration, and Revision Data, you can create numerous combinations of networks of diverse
+configurations and varying engineering properties that allow you to fully investigate and study the
+behavior and characteristics of the electrical networks using one database. This means that there is no
+need to copy your database for different system configurations, ‘what if’ studies, etc.
+
+Graphical
+Presentation
+
+Status
+Configuration
+
+Revision Data
+These dimensions can be used in conjunction with multiple loading categories and multiple study cases to
+quickly and efficiently perform system design and analysis without the possibility of data discrepancies
+caused by multiple copies of a single project file being used to account for various system changes.
+This powerful new concept is unique to ETAP. A 3-D database vs. a flat database means:
+• No need to keep multiple copies of the database
+• Eliminate data discrepancies & errors
+• Higher capability & flexibility
+• Higher productivity
+• Less man-hours
+
+Operation Technology, Inc.
+
+10
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.6 Presentations
+Two Graphical Presentations of the System
+with Different Annotations, Symbols, Locations, and Visibility of Elements
+
+Operation Technology, Inc.
+
+11
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.7 Configurations (Status)
+
+One-Line Diagram with Status Configuration “Stage 1” Active
+(Note that the single throw switch is open)
+
+Operation Technology, Inc.
+
+12
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.8 Revision Data (Engineering Properties)
+
+Base Data Indicating Engineering
+Properties of the Existing System
+
+Revision Data Indicating Modifications
+Of Transformer Ratings
+
+Operation Technology, Inc.
+
+13
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.9 ETAP Wizards
+ETAP includes time-saving project management tools called the ETAP Wizards, which allow you to
+record and run any study at any time. The ETAP Wizards include the Scenario Wizard, Study Wizard,
+and Project Wizard. All three are described below.
+Through the ETAP Wizards, you will be able to combine the orthogonal tools (Presentations,
+Configurations, and Revision Data), study types, output reports, and study cases (the loading and
+generation system operation factors together with solution parameters) to perform a complete system
+study with the click of a button.
+
+The three ETAP Wizards are located on the
+System toolbar.
+
+Operation Technology, Inc.
+
+14
+
+
+
+Scenario Wizard
+
+
+
+Study Wizard
+
+
+
+Project Wizard
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.10 Scenario Wizard
+A scenario allows you to group all study options into one place. For this reason, scenarios are useful
+anytime you want to record a study to be executed. Every project file contains a Scenario Wizard.
+Scenarios are created and recorded in the Scenario Wizard and can be run individually at any time. A
+project can have an unlimited number of scenarios. Scenarios are composed of the following parameters:
+•
+•
+•
+•
+•
+•
+•
+•
+
+System (Network Analysis or CSD Analysis)
+Presentation (e.g., one-line diagram, UGS, or CSD)
+Revision Data (Base or Revision Data)
+Configuration Status (e.g., Normal, Stage 1, or TSEvents)
+Study Mode (e.g., Load Flow or Short-Circuit)
+Study Case (loading and generation system operation factors and solution parameters)
+Study Type (vary depending on Study Mode)
+Output Report (vary depending on Study Mode)
+
+When you run a scenario in a project, it will automatically create an output report or overwrite an existing
+report with the same name.
+
+Scenario Wizard Editor
+You can create a scenario either by selecting parameters in the Scenario Wizard or by recording options
+you have already selected for your study in the one-line view.
+
+Operation Technology, Inc.
+
+15
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.11 Study Wizard
+Macros reduce the time it takes to run several scenarios. Every project file contains a Study Wizard. The
+Study Wizard enables you to sequentially group existing scenarios into study macros. You must have
+created the scenarios you want to include in your study macro before you can create the macro. You
+create the scenarios using the Scenario Wizard. (See the Scenario Wizard section above for more
+information.)
+A project may have an unlimited number of study macros. When you run a study macro, all of the
+scenarios included in it are run, creating or overwriting the output reports just as they would if they were
+run individually. For example, you could group scenarios related to load flow or a specific type of load
+flow into one study macro.
+
+Study Wizard Editor
+Operation Technology, Inc.
+
+16
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.12 Project Wizard
+The Project Wizard is project independent and is saved within the ETAP folder. It enables the user to
+group existing study macros into project macros. You should use a project macro when you have several
+projects from which you want to run multiple study macros and their scenarios simultaneously. This
+feature automates opening and closing project files and individually executing study macros and their
+scenarios.
+
+Project Wizard Editor
+
+Operation Technology, Inc.
+
+17
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.15 Libraries
+ETAP provides extensive user-controlled libraries based on actual manufacturer published data.
+• Cable (NEC, ICEA, and manufacturer published data)
+• Cable fire coating (manufacturer published data)
+• Cable fire stop (manufacturer published data)
+• Cable fire wrap (manufacturer published data)
+• Motor nameplate
+• Motor circuit model (single and double cage motors)
+• Motor characteristic model
+• Motor load model
+• Relay (manufacturer published data)
+• Recloser (manufacturer published data)
+• Electronic Controller (manufacturer published data)
+• LV circuit breaker (manufacturer published data)
+• HV circuit breaker (manufacturer published data)
+• Fuse (manufacturer published data)
+• Overload Heater (manufacturer published data)
+• Harmonic (IEEE and manufacturer published data)
+• Motor overload heater (manufacturer published data)
+• Battery
+• Reliability index library
+• Interruption cost library
+• 50,000+ device time-current characteristic curves
+• Merge data from different libraries
+• Export library data to Microsoft Access file with report manager and Crystal Reports
+
+Operation Technology, Inc.
+
+18
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2.20 Active Error Viewer
+ETAP provides five levels of error checking. The active error viewer appears when you attempt to run a
+study with missing or inappropriate data. Double-click each individual error message to locate and open
+the component editor associated with the cause of the error message.
+
+A Transformer Editor Activated after Double-Clicking on the Error
+
+Demo Restrictions
+The active ETAP demonstration program contains limitations not present in the commercial version.
+These limitations are listed below:
+•
+
+The trial period for the demo is 30 days (extendable by contacting ETAP with your Return Code).
+
+•
+
+The one-line diagram may have a maximum of twelve (12) AC buses and ten (10) DC buses. See
+Ten (10) Bus Limitation to learn how to remove existing buses to add new ones.
+
+•
+
+The demo is limited to five (5) STAR presentations.
+
+•
+
+Saving is disabled within the demo.
+
+•
+
+Opening projects is limited to the selection provided by ETAP.
+
+•
+
+Printing output reports are restricted to the original example reports included on the Demo CD.
+However, the displayed results on the one-line diagram and the plots are based on the
+modifications made.
+
+•
+
+Importing and exporting functions and Project Merge are disabled.
+
+Operation Technology, Inc.
+
+19
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+•
+
+New components may be inserted into the one-line diagram except for panels and phase adapters.
+
+•
+
+Existing components may be inserted into the one-line diagram except for panels and phase
+adapters.
+
+•
+
+Existing panels have some limitations such as disabled Summary page, Report Manager, Printing,
+Library Quick Pick Window, and fixed number of circuits.
+
+•
+
+The Underground Raceway Systems (UGS), Cable Pulling, Ground Grid, and UDM Graphic
+Logic Editor are disabled.
+
+•
+
+Adding and copying in the Library is disabled. Wind Turbine Generator and Photovoltaic Array
+libraries are disabled.
+
+•
+
+Solar Irradiance calculator is disabled.
+
+The following modules are functional in the demo:
+• Load Flow
+• Load Analyzer
+• Short Circuit (ANSI and IEC)
+• AC Arc Flash
+• Arc Flash Sequence of Operation*
+• Star Systems (Device Coordination & Short Circuit)
+• Star Sequence of Operation*
+• Motor Acceleration (Dynamic and Static) *
+• Harmonic Analysis (Load Flow and Frequency Scan) *
+• Transient Stability*
+• Unbalanced Load Flow*
+• Open Phase Fault*
+• Optimal Power Flow*
+• DC Load Flow*
+• DC Short-Circuit*
+• DC Arc Flash*
+• DC Arc Flash Report Analyzer
+• Battery Sizing and Discharge*
+• Reliability Assessment*
+• Optimal Capacitor Placement*
+• Contingency Analysis
+*Modules may be enabled by contacting ETAP with your Return Code. Your Return Code is specified
+within all of the Demo Limitation dialog boxes. Return Codes are different for every computer on which
+the demo is installed.
+
+The following modules are not functional in the demo:
+• AC & DC Control System Diagram (CSD)
+• AutoBuild
+• Cable Ampacity
+
+Operation Technology, Inc.
+
+20
+
+ETAP 14 Demo
+
+Getting Started
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Analysis Capabilities
+
+Cable Manager
+Cable Pulling
+Cable Sizing
+Electric Shock Calculation
+Geospatial Diagram (GIS)
+Ground Grid Systems
+Irradiance Calculator
+Parameter Estimation
+Protective Conductor Sizing
+Rail Traction Power
+Rulebooks
+Star Auto
+Template
+Transformer Sizing
+Transformer Tap Optimization
+Transmission Line Ampacity
+Transmission Line Sag & Tension
+Underground Ductbank Raceway Systems
+Warehouse
+
+Operation Technology, Inc.
+
+21
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+3. Demo Setup
+This quick setup document is designed to guide you through a typical installation of the ETAP 14 Demo.
+
+System Requirements
+Minimum Hardware Requirements
+•
+•
+•
+
+Operating System (64-bit)
+•
+•
+•
+•
+•
+
+•
+•
+
+Intel Core i5 or better
+4 GB RAM
+5-10 GB available hard disk space
+
+Other Software Requirements
+•
+
+Microsoft Windows® 10 Pro
+Microsoft Windows 8 & 8.1 (Standard,
+Professional)
+Microsoft Windows 7 (Home Premium,
+Professional, Ultimate) (SP1)
+Microsoft® Server 2012 & 2012 R2
+(Standard)
+Microsoft Server 2008 R2 (Standard)
+(SP1)
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Operation Technology, Inc.
+
+DVD/CD Drive
+1280x1024 screen resolution (Recommended)
+
+22
+
+Internet Explorer® 10 or higher (or minimum
+version level specified by the Operating
+System)
+Microsoft .NET Framework v3.5 (SP1)
+Microsoft .NET Framework v4.0
+Microsoft .NET Framework v4.5
+Microsoft SQL Server Compact 3.5 (SP2)
+Microsoft Windows Update (KB2670838)
+Microsoft SQL Server 2012 Express (x64)
+Microsoft SQL Server 2012 Express LocalDB
+(x64)
+Microsoft SQL Server 2012 Native Client
+(x64)
+Microsoft SQL Management Studio 2012
+(x64)
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+4. Demo Structure
+This section describes the structure of the ETAP 14 Demo package. The demo has been designed to allow
+sampling of most of the editing and analysis tools in ETAP.
+
+Select Demo Project Editor
+This window is immediately displayed as soon as you run the ETAP 14 Demo program. It gives you the
+following options:
+
+New Project
+The New Project option allows you to open a new ETAP project where you can build a one-line diagram
+from scratch. The system that you build can have as many as twelve AC buses and ten DC buses. You can
+perform all enabled analysis on this newly created project, but you cannot save the changes you make.
+Please refer to Section 2 for a list of all the studies that you can perform or need to enable using your
+Return Key Code.
+
+Example Project (ANSI)
+If you select this option, an example project will open which has been setup to run all the available ETAP
+modules. The example project contains several links to allow you to view the getting started documents
+for ETAP. It also contains valuable information regarding one-line diagrams editing features. In this
+project, all symbols and studies are based on ANSI standard.
+
+Example Project (IEC)
+If you select this option, an example project will open which has been setup to run all the available ETAP
+modules. The example project contains several links to allow you to view the getting started documents
+for ETAP. It also contains valuable information regarding one-line diagrams editing features. In this
+project, all symbols and studies are based on IEC standard.
+
+T&D Project
+If you select this option, a large project file opens which can only be browsed. This project is provided as
+an example of larger systems and how they can be divided into subsystems or “composite networks” to
+simplify and organize one-line diagrams. This project is a bigger version of the example project. It is very
+important to know that ETAP does not have any system size limitations; this means that you can have an
+unlimited number of buses.
+
+Operation Technology, Inc.
+
+23
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+ETAP Real-Time Video
+ETAP Real-Time is an intellgent power managment system that runs as an operator workstation to
+monitor, control, simulate, optimize, and automate the operation of your power system. It simultaneously
+serves as an engineering workstation capable of utilizing real-time data to perform design, simulation, and
+analysis of power systems. Please contact sales at sales@etap.com or call 949-462-0100 for more
+information.
+
+ETAP GIS Video
+The ETAP GIS Video option shows the process of building and synchronizing an ETAP project with a
+GIS project.
+
+Operation Technology, Inc.
+
+24
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+5. Interface Maps
+The following maps are provided to describe the general structure and user interface of ETAP.
+
+5.1 Edit Mode
+Here you can graphically add, delete, relocate, and connect elements, zoom in or out, display grid off or
+on, change element size, change element orientation, change symbols, hide or show protective devices,
+enter properties, set operating status, and more.
+
+Select Status Configuration
+
+Unlimited Number of Configurations
+to Save Status of Switching
+Devices/Loads
+
+Select Mode
+Edit Mode: Drag/Drop & Connect Elements
+Study Mode: Load Flow, Short-Circuit, … etc.
+
+Edit Toolbar
+Project Editor
+
+AC Elements
+DC Elements
+Instrument
+Devices
+
+Help Line
+Displays the
+description for every
+entry field.
+
+Message Logger
+
+One-Line Diagram
+
+View the latest messages related to
+ETAP Projects.
+
+In Edit Mode
+
+It can be expanded or reduced.
+
+Operation Technology, Inc.
+
+25
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Menu Bar
+The Menu bar contains a comprehensive list of menu options. Each option activates a drop-down list of
+commands such as, File operations, Printing, Database Conversions, Data Exchange, OLE objects,
+Project Standards, Project Settings and Project Options, Libraries, Defaults, Annotation Fonts, Base and
+Revision Data, and more.
+
+Project Toolbar
+
+The Project toolbar contains buttons that provide shortcuts for many commonly used functions. Those
+functions are: Create Projects, Open Projects, Save Projects, Print, Print Preview, Cut, Copy, Paste, Pan,
+Zoom, Undo, Redo, Text Box, Grid Display, Continuity Check, Themes, Get Template, Add to OLV
+Template, Hyperlink, Power Calculator, Find, and Help.
+
+Theme Toolbar
+
+The Theme toolbar contains buttons that allow you to perform shortcuts using many commonly used
+commands in ETAP to change color and line styles for device connectors, symbol color, and
+background.
+The Theme toolbar consists of the following commands
+• Theme manager
+• Theme Name
+• Theme Color Coding
+• Colors Normal
+• Colors Customer
+• Enable contouring
+
+Project View
+The Project View is a graphical tree representation that includes
+Presentations, Configurations, Study Cases, Libraries, and Components
+associated with your project. Here you can create and manipulate
+the following presentations, configurations, and study cases:
+•
+•
+•
+•
+•
+•
+•
+
+One-Line Diagram Presentations
+U/G Cable Raceway Systems
+Ground Grid Systems
+Cable Pulling Systems
+Dumpster
+Status Configurations
+Study Cases
+
+You also have full access to all libraries and elements that exist in your project.
+
+Operation Technology, Inc.
+
+26
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Edit Toolbars
+The Edit toolbars are active when you are in Edit Mode. You can click or
+double-click to select, drag and drop AC, DC, and instrument elements
+on the one-line diagrams. Additionally, you can perform the following
+functions:
+•
+•
+•
+•
+•
+
+View & Print Customizable Output Reports (Text & Crystal Reports)
+Change Display Options
+Access Schedule Report Manager
+Add New Ground Grid Systems
+Add Composite Networks & Composite Motors
+
+5.2 Study Modes
+
+Operation Technology, Inc.
+
+27
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+ETAP provides the following study modes directly from the one-line diagram:
+1. Load Flow Analysis
+2. Short-Circuit Analysis
+3. Arc Flash Analysis
+4. Motor Acceleration Analysis
+5. Harmonic Analysis
+6. Transient Stability Analysis
+7. Star – Protective Device Coordination
+8. DC Load Flow Analysis
+9. DC Short-Circuit Analysis
+10. DC Arc Flash Analysis
+11. Battery Sizing and Discharge Calculations
+12. Unbalanced Load Flow Analysis
+13. Time Domain Load Flow Analysis
+14. Unbalanced Short Circuit Analysis
+15. Voltage Stability Analysis
+16. Optimal Power Flow Analysis
+17. Reliability Assessment
+18. Optimal Capacitor Placement
+19. Switching Optimization
+20. FMSR Analysis
+21. Switching Sequence Management
+22. Contingency Analysis
+23. Rail Traction Power
+24. Star Systems
+25. UnderGround Raceway Systems
+26. Ground Grid Systems
+27. Cable Pulling Systems
+Cable and ground grid analysis, and cable pulling calculations are available from the Underground Cable
+Raceway Systems, Ground Grid Systems, and Cable Pulling Systems studies, respectively.
+
+6. Tutorial
+This chapter is intended to give you a brief overview of some of the features of ETAP. After going
+through this series of tutorials, you will be familiar with many of the key concepts and capabilities of
+ETAP. Each section is available in an interactive format, allowing you to visualize each step as it is
+explained in this chapter.
+The tutorials are all independent of each other, so you do not need to worry about being introduced to
+everything at once. Simply choose any number of sections that you are interested in learning. The
+breakdown of the sections is described below.
+Section 1:
+Section 2:
+Section 3:
+Section 4:
+Section 5:
+
+How to build and manipulate a one-line diagram
+How to set up and run a load flow study
+How to set up and run an unbalanced load flow study
+An introduction to ANSI and IEC short circuit studies
+How to set up an run arc flash analysis
+
+Operation Technology, Inc.
+
+28
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Section 6: How to set up and run both static and dynamic motor acceleration studies
+Section 7: A brief overview of a harmonic analysis of a system
+Section 8: How to simulate and analyze system transients
+Section 9: An overview of the basic operation of the Protective Device Coordination (Star) module
+Section 10: An introduction to Optimal Power Flow analysis
+Section 11: How to setup and run a reliability analysis
+Section 12: An overview of the DC Load Flow module
+Section 13: How to run a DC Short-Circuit study and make multiple study cases
+Section 14: An introduction to Battery Sizing and Battery Discharge
+Section 15: A brief overview of the Underground Raceway Systems module
+Section 16: How to build and run studies on a Ground Grid Systems
+Section 17: How to set up and build a Cable Pulling System
+Section 18: How to set up and connect Panel Systems to existing networks
+Section 19: A detailed explanation of the output report formats
+Section 20: An overview of the libraries of ETAP
+
+
+
+
+
+To begin, start ETAP by double-clicking the icon on your desktop.
+
+The first tutorial shows you how to create a small system. For this section you can use the “New
+Project” option when the Select Demo Project window appears. For the rest of the tutorials (with
+the exception of Star), you should use the “Example Project” option instead.
+
+Operation Technology, Inc.
+
+29
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.1 Building a One-Line Diagram
+The purpose of this tutorial is to show the fundamentals of building and manipulating a one-line diagram
+(OLD) in ETAP. Various elements will be added to the one-line view (OLV), and an introduction to
+equipment editors will be made. Open the ETAP 7.5.0 Demo and select the option “New Project” for this
+tutorial section.
+
+
+
+
+
+
+To build or edit a one-line diagram in ETAP, you must be in Edit Mode. Click the Edit button on
+the Mode toolbar.
+
+On the AC Edit toolbar, select a Power Grid (Utility) element by clicking on the Power Grid
+button. The cursor will change to the Power Grid icon when moving over the OLV. Click
+anywhere in the OLV to place a Utility on your one-line diagram.
+By following the same procedure, insert the following elements until your OLD appears as
+follows:
+
+☺Helpful Tips…
+Double-clicking on an
+element button allows you to
+drop it more than once.
+When finished just press the
+Esc key.
+☺Helpful Tips…
+You can zoom in
+out
+
+, zoom
+
+, and zoom to fit page
+
+the OLV by clicking on
+the respective buttons
+located in the Project
+Toolbar.
+
+
+
+You can stretch buses by placing the mouse pointer over either end of the bus, until a double
+arrow appears. Then click and drag to the desired length.
+
+Operation Technology, Inc.
+
+30
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+Now connect the elements in the one-line. Place the mouse pointer over the connection pin of an
+element, and it will turn red. Then click and drag to the connection pin of another element.
+Follow this procedure to connect all the elements on the one-line. In the case of buses, the entire
+element graphic functions as a connection point. Notice that a node is automatically inserted
+when connecting the cable to the transformer.
+
+☺Helpful Tips…
+
+Power Grid U1
+1250 MVAsc
+X/R = 120
+
+You can change the size,
+orientation
+and
+symbol
+standard for an element by
+right-clicking on the element
+and selecting the attribute you
+would like to change.
+
+Cable1
+NEC 5.0kV 3/C
+CU, 133%
+Size = 4/0
+Length = 200ft
+
+Node automatically
+inserted
+
+Transformer T1
+Prim. kV = 4.16kV
+Sec. kV = 0.48kV
+20 MVA
+%Z = 6
+X/R = 17
+Motor Mtr1
+400 HP
+
+Operation Technology, Inc.
+
+31
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The data contained in any element on the OLD can be accessed by opening its editor. Doubleclick Cable1 to open the Cable Editor. You can click any tab in the editor to open its respective
+page. Data can be entered manually into fields with a white background only.
+
+ Click the Library button on
+the Info page to select a cable. Then
+click OK to exit both the Quick Pick
+window and the editor window. The
+engineering properties of the
+selected cable are now entered in the
+editor.
+
+Operation Technology, Inc.
+
+32
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+You can also manipulate the orientation and appearance of elements in the OLD. A list of options
+will appear if you right-click an element graphic. For example, you can rotate a power grid or
+load by right-clicking on it, select Orientation, and then select a rotation angle.
+
+
+
+
+
+There is a variety of options that can be chosen
+by simply right-clicking on an element graphic.
+
+Populating a composite network is very similar to populating the first one-line. To open the
+composite network, double-click it’s graphic. The title of this window will be OLV1=>Network1.
+You may change its name by double-clicking anywhere inside the network’s OLV or by rightclicking on its graphic and selecting Properties. Connect the elements shown below to create a
+one-line diagram as was done previously. Now, to make this one-line look cleaner, you can rightclick and select Hide Unconnected Pins.
+
+☺Helpful Tips…
+Using composite networks
+helps making large one-line
+diagrams manageable.
+
+Operation Technology, Inc.
+
+33
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Adding a Protective Device (PD) to your One-Line
+ Ensure that there is enough room between the elements you wish to add a PD. Adding a PD to
+your one-line does not require you to delete the line connecting the elements, instead, insert the
+PD on to the line where you like it to be. The PD will automatically connect to the line. Follow
+this procedure to add the remaining PDs shown in the final one-line.
+
+
+
+
+
+To check if an element is energized click on the continuity icon
+located in the project toolbar. All elements that are not energized will be
+grayed out. For example, with the continuity check on, open CB4. As
+shown in the figure to the right, CB4 and elements downstream are grayed
+out.
+
+Creating a one-line diagram in ETAP is fast and easy. Once complete, you
+can take full advantage of all the powerful tools that ETAP has to offer.
+
+Operation Technology, Inc.
+
+34
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.2 Load Flow Analysis
+The purpose of this tutorial is to give you an introduction to the use of the Load Flow Analysis module. It
+will also provide an example of how to regulate bus voltage using transformer LTCs and how ETAP flags
+overload conditions. For this section of the tutorial you should use the “Example Project” option.
+
+
+
+
+
+Click the Load Flow Analysis button on the Mode toolbar to switch to Load Flow Analysis mode.
+Now you can run a study by clicking on the Run Load Flow button on the Load Flow toolbar.
+You will be prompted to enter a name for your output report if Prompt is selected. Later, you will
+learn how to customize your study by changing options in the Load Flow Study Case editor.
+
+The results of the study can be seen on the OLD.
+The information shown on the OLD can be changed
+in the Display Options. For even more detailed results, output reports can be viewed.
+
+
+
+To view any overload
+problems, simply click the Alert
+View button on the Load Flow
+toolbar. This will open a window
+containing a list of undersized
+equipment. Please note that the
+alert view button is disabled in
+the ETAP Demo.
+
+Operation Technology, Inc.
+
+35
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Note that the operating voltage of Bus1 is 97.94%. This caused the bus to be flagged as
+marginally under voltage in the Alert View window. The criteria for which a condition is flagged
+can be changed in the Load Flow Study Case editor, which will be discussed in the next lesson.
+We will now use the bus voltage regulation feature of the Transformer Editor to change our Load
+Flow results.
+ETAP allows Auto LTC settings to be applied to regulate buses that are directly or indirectly
+connected to a transformer. For example, we can use transformer T4 to regulate Bus1 at 100% of
+nominal voltage. Open the editor of T4 by double clicking on its graphic. On the Tap tab, enable
+(check) the Auto LTC box on the primary winding.
+
+Open the LTC settings window by clicking on the LTC box and change the Regulated Bus ID to
+Bus1. Click OK for both the LTC window and the Transformer Editor window.
+Now you can run a Load Flow study again, with attention paid to the operating voltage of Bus1.
+Click the Run Load Flow button on the Load Flow toolbar to do so.
+Notice that the operating voltage of Bus1 is now within a
+tap step of the desired 100% regulation value. This is just
+one example of the many features of the ETAP
+Load Flow module.
+
+Operation Technology, Inc.
+
+36
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The Load Flow Result Analyzer allows you to view the results of various load flow studies in one
+screen so you can analyze and compare the different results. You can compare the results of
+general information about the project or more specific information such as the results contained
+from buses, branches, loads or sources in a load flow study. The Load Flow Result Analyzer is a
+time saving tool that allows you to compare and analyze different reports coming from different
+projects, within the same directory, in a single display.
+
+Operation Technology, Inc.
+
+37
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.3 Unbalanced Load Flow Analysis
+The purpose of this tutorial is to give you an introduction to the use of the Unbalanced Load Flow
+Analysis module. It will also provide an example on how a large single-phase load impacts a balanced
+three-phase system. You will need to contact OTI with your Return Key Code so that you can activate
+this module. For this section of the tutorial you should use the “Example Project” option.
+
+
+
+
+
+Click the Unbalanced Load Flow Analysis button on the Mode toolbar to switch to Unbalanced
+Load Flow Analysis mode. Now you can run a study by clicking on the Run Unbalanced Load
+Flow button on the Unbalanced Load Flow toolbar. You will be prompted to enter a name for
+your output report if Prompt is selected. Later, you will learn how to customize your study by
+changing options in the Load Flow Study Case editor.
+
+The results of the study can be seen on the OLD.
+The information shown on the OLD can be changed
+in the Display Options. For even more detailed results, output
+reports can be viewed. Select the following options from the
+display options:
+
+Operation Technology, Inc.
+
+38
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+To view any overload or unbalance problems, simply click the Alert View button on the Load
+Flow toolbar. This will open a window containing a list of undersized equipment, as well as
+equipment with unbalanced conditions. Please note that the alert view button is disabled in the
+ETAP Demo.
+Note that the system is well balanced, as can be seen from the voltage and current values per
+phase.
+A system unbalance will be introduced by changing the connection of motor Syn1 (1250 Hp)
+from three-phase to single-phase. Open the Syn1 motor editor and make the changes indicated
+below:
+
+Operation Technology, Inc.
+
+39
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+Run the unbalanced load flow again and check the results
+
+Notice that there is current and voltage unbalance in different areas of the system, which did not
+exist in the original (balanced) load flow case. This is just one example of the many features of
+the ETAP Unbalanced Load Flow module.
+
+Operation Technology, Inc.
+
+40
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.4 Short-Circuit Analysis
+The purpose of this tutorial is to introduce the Short-Circuit Analysis module of ETAP, and provide
+instructions on how to run ANSI and IEC short-circuit calculations. In addition, there will be a brief look
+at study case editors and the Alert View function. For this section of the tutorial you should select
+“Example Project (ANSI)” option when starting ETAP Demo.
+
+Results of the Short Circuit Analysis
+
+Running Short Circuit Analysis
+
+
+
+
+From the Mode toolbar, select the short circuit mode by clicking on the Short-Circuit Analysis
+button.
+
+Running a Short Circuit Analysis will generate an output report. In the Study Case toolbar you
+can select the name of the output report as one already defined or “Prompt.” If “Prompt” is
+selected then prior to running the Short Circuit Analysis you will be prompted to enter a report
+name.
+
+Operation Technology, Inc.
+
+41
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+Analysis Capabilities
+
+From the Study Case toolbar, click the Edit Study Case button. This will open the Short Circuit
+Study Case editor, allowing you to change calculation criteria and options. From the Info page,
+choose a bus or multiple buses to be faulted. Click all buses except Sub 3 and select ~Fault>> to
+place them in the Don’t Fault category. Sub 3 should now appear alone in the Fault category.
+Click OK when finished.
+
+You can now run a short circuit (duty) study by clicking on the Run 3-Phase Device Duty button
+on the ANSI Short Circuit toolbar. If Prompt was selected as the output report in the Study Case
+toolbar, you will be prompted to enter a name for your output report.
+There are four other types of studies besides the 3-Phase ANSI that can be performed under the
+ANSI standard setting. In addition, three studies according to the IEC set of standards can be
+performed. The ANSI methods are the default for short circuit studies, but this can be changed in
+the Standard page of the Short Circuit Study Case editor. ETAP 14 supports a new method of
+short circuit calculation in compliance with GOST R 53745 Standards.
+
+Operation Technology, Inc.
+
+42
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Viewing the Results
+
+
+
+
+
+
+The results of the Device Duty Short Circuit
+calculation are displayed on the one-line.
+Changing the settings in the short circuit
+Display Options can modify the results
+displayed and their format on the one-line.
+Note that breaker CB9 and CB18 are now
+colored magenta. This flag means that the
+device capabilities have been exceeded in some
+way. Click the Alert View button on the ANSI
+Short Circuit toolbar to view the flagged
+devices (please note that the alert function is
+disabled in the Demo).
+
+To view the output report click on Report Manager from the Short Circuit toolbar, and go to the
+Result page and select Short Circuit Report.
+
+Operation Technology, Inc.
+
+43
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Modifying Alert View settings
+
+
+
+
+
+
+To view or modify the
+Alert settings, open the
+Short Circuit Study
+Case editor to the Alert
+page.
+Check
+the
+Marginal box and
+change the limit to
+70%. Also, click the
+Auto Display button
+and then click OK.
+When the Marginal box
+is checked, all devices
+that
+have
+been
+exceeded by this limit,
+but remain under 100% rating will appear in the Alert View in the Marginal category. Devices
+that have been exceeded by 100% of rating will always be flagged, and will appear in the Critical
+category of the Alert View.
+Now run the same short circuit study again by following the procedure used above. Note that
+once the calculation has been completed, the Alert View window will automatically open, as per
+the change made to the Alert page in the Short Circuit Study Case editor. Notice that other
+protective device conditions appear in the Marginal Alert View. Note that the short circuit results
+do not change.
+
+The Alert function of the Short Circuit and Load Flow modules of ETAP is a convenient way to
+size protective devices at your facility.
+
+Operation Technology, Inc.
+
+44
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.5 Arc Flash Analysis
+The purpose of this tutorial is to introduce the Arc Flash Analysis module of ETAP and provide
+instructions on how to setup Arc Flash (AF) calculations. For this section of the tutorial, you
+should select the “Example Project (ANSI)” option when starting the ETAP Demo.
+There are two options to perform AF calculations:
+•
+
+
+
+Running a Global AF calculation for all Buses (global AF calc)
+Switch to the Arc Flash Analysis mode by clicking on the Arc Flash Analysis button on the Mode
+toolbar.
+
+Using the Quick Incident Energy Calculator at any Bus
+This is the simplest way to get some quick AF results and make labels. The following steps show
+how to accomplish this:
+
+
+
+ETAP Arc Flash has typical equipment gap and X-factors built into the rating page of the
+bus. You can take advantage of these typical values to perform a quick Arc Flash
+calculation. Open the editor for Bus1 and go to the rating page of the bus and select the
+type of equipment that is represented by that bus. This can be enclosed equipment such as
+MCC, switchgear, or open-air equipment, i.e., not enclosed in a box. Once you have
+selected the equipment type, select typical gap and boundary values by clicking on the
+“Typical Data” button. This will bring all the required gap and x-factor information as
+well as approach boundaries as defined by NFPA 70E. To change the Arc Flash Analysis
+Data and Shock Hazard Analysis Data press the “Data Options” button.
+
+Operation Technology, Inc.
+
+45
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Go to the Arc Flash page and select the working distance. This distance is automatically
+populated based on the voltage level and type of equipment. The working distance is
+defined as the distance from the person’s torso and face to the energized equipment
+(typically 18 inches for low voltage equipment). You may also define the system
+grounding configuration of the equipment feeder, i.e., transformer grounding / source
+grounding like solidly grounded or delta. If you do not know the system grounding,
+assuming the system is ungrounded will yield conservative results (default). You can
+change the default user-defined system grounding by selecting it from the dropdown list.
+ETAP can also be configured to automatically determine the system grounding.
+Enter the available User-Defined Bolted Fault Current. If you know how long it will take
+the protective device to clear the arc, enter this information in the User-Defined Arc Fault
+Clearing Time (FCT).
+
+ Select the arc flash label template that you want from the report manager and
+click on ok. A Crystal Reports viewer window will open with a label that is ready for
+printing. The bus Arc Flash page allows you to get Arc Flash results instantly.
+
+Operation Technology, Inc.
+
+46
+
+ETAP 14 Demo
+
+Getting Started
+
+Operation Technology, Inc.
+
+Analysis Capabilities
+
+47
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Setting Up and Running a Global Arc Flash Analysis
+The previous section described a simple way to generate quick AF results. However, the bus calculator is
+simplified and it is not efficient when you need to run an analysis on hundreds of fault locations. For this
+you need to setup the global AF calculation.
+The same input data is required if you use the quick incident energy calculator at the bus or if the global
+AF calculation is used; however, in ETAP there are quicker and easier ways to define the input data
+required by the calculation.
+
+
+
+Open the Arc Flash calculation study case and go to the AF Data page. In this page you
+can globally define the equipment’s gaps between conductors, working distance, and
+other AF parameters to be used by the global AF calculation. This will save you a lot of
+time since you would be only required to define the type of equipment represented by
+each bus. The following image shows the recommended settings for a global AF
+calculation:
+
+The global definitions for each set of input data parameters can be modified or reviewed
+by accessing the Project \ Settings \ Arc Flash \ menus as shown below:
+
+Operation Technology, Inc.
+
+48
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+It is recommended that you use the options shown in the AF Data page image since they allow the
+use of the latest standards with typical values.
+
+
+
+
+
+On the Info page of the Arc Flash Study Case editor, select the buses to be faulted
+through the Info as shown in the Short Circuit leaflet. You can also right-click on the bus
+and select Fault or Don’t Fault.
+
+Next select the analysis method from the Arc Flash Study Case. This can be either NFPA
+70E Annex D.2, D.3 or IEEE 1584. The IEEE method is a more accurate model and is set
+as default.
+
+Operation Technology, Inc.
+
+49
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+The next step requires the selection of the arc fault clearing time (FCT). The default is set
+to the automatic determination of the FCT from the Star protective device time current
+characteristics (TCC) of the protective devices (PD). In most cases, the most conservative
+solution is reached by selecting a TCC only for the main feeder PD since they take a
+longer time to operate. If you do not select a TCC for the bus, ETAP will use the userdefined FCT from the bus Arc Flash page.
+The remaining options to be selected can be left as default and are self explanatory. For
+example, you can choose to update the global calculation results back to the Arc Flash
+page of the bus.
+Once this information has been selected from the bus and Arc Flash page, all you need to
+do is to click on the Arc Flash icon from the toolbar to launch the calculation. The
+program will provide a full set of reports for all the faulted buses as well as all the labels
+for every protective device location and for the faulted buses.
+
+Operation Technology, Inc.
+
+50
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The AF calculations can be repeated for all the different configurations in ETAP. The
+Scenario and Study Wizards can be used to keep track and repeat the different
+calculations as shown in the images below where two different AF calculations were
+performed and recorded:
+
+Operation Technology, Inc.
+
+51
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The AF calculation results can be viewed using the AF Result Analyzer. This new tool in
+ETAP can be launched from the Short Circuit toolbar by clicking on the AF Result
+Analyzer icon. The AF Result Analyzer allows you to review results from several studies
+for comparison, finding potential problems in the system with ease, and determining
+worst case conditions. At the same time labels, work permits, and data sheets can be
+generated and printed from here.
+
+Operation Technology, Inc.
+
+52
+
+ETAP 14 Demo
+
+Getting Started
+
+Operation Technology, Inc.
+
+Analysis Capabilities
+
+53
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.6 Motor Acceleration Analysis
+The purpose of this tutorial is to introduce the Motor Acceleration module of ETAP. It will show the
+static and dynamic models that can be used to simulate real motor characteristics. The minimum amount
+of data necessary to run each type of study will be entered. An example of a motor starting output plot
+will be shown. You will need to contact OTI with your Return Key Code so that you can activate this
+module.
+
+
+
+
+
+
+
+
+
+Switch to Motor Acceleration Analysis mode by clicking on the Motor Acceleration Analysis
+button on the Mode toolbar.
+
+From the Study Case toolbar, open the Motor Starting Study Case editor. From here you can add
+and modify conditions for your study.
+
+On the Event page, change the Total Simulation Time to 10 seconds. The output plots will now
+graph the results of the study from time 0 to 10 seconds.
+
+Now you can add an unlimited number of events to simulate switching actions in a single Motor
+Starting simulation. You can start or switch off individual loads or categorized motor groups with
+the Action by Load and Action by Starting Category features, respectively. You can also change
+the operating load by clicking the Load Transitioning option to change from one loading category
+to another.
+
+Operation Technology, Inc.
+
+54
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+You can add an event by selecting the Event page and clicking on the Add button under the
+Events heading. Actions occurring at each event time can be added, modified, or deleted by
+selecting the event and modifying the respective Action heading (by Element, by Starting
+Category, by Load Transitioning). Click OK to save any changes you make.
+
+Open Syn1’s editor by double-clicking on the element graphic in the OLV. Click the Load Model
+tab. In the Acceleration Time (Static Starting) fields, enter 1 second as the no load acceleration
+time, and 3 seconds as the full load acceleration time. Click OK to save and exit.
+
+Operation Technology, Inc.
+
+55
+
+ETAP 14 Demo
+
+Getting Started
+
+Operation Technology, Inc.
+
+Analysis Capabilities
+
+56
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The data you have just seen and changed is the
+minimum necessary to run a simple Static Motor
+Starting study. Run the study by clicking on the
+Run Static Motor Starting button on the Motor
+Starting toolbar.
+Note: Once the calculation has completed, plots and
+output reports are accessible. An example of the
+plots will be shown for a Dynamic study.
+
+Running a Dynamic Motor Starting Study
+
+
+Now a Dynamic Motor Starting study will be performed using the same Study Case conditions
+and events as the Static study. However, additional data is necessary for a Dynamic Study.
+Double-click the Syn1 element graphic to open its editor, and go to the Model tab. Under the
+Dynamic Model heading, a category other than “None” must be selected. Clicking on the Typical
+Data button will fill the necessary fields based on the ratings specified under the Nameplate tab.
+
+Operation Technology, Inc.
+
+57
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+Now go to the Load Model page to view the load model. Ensure that a Load Model is
+entered for this motor. If a Load Model needs to be entered, click the Load Model Lib
+button, and accept a Motor Load by clicking OK in the window that appears.
+
+Operation Technology, Inc.
+
+58
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Also, go to the Inertia page and enter 0.2 into the motor inertia (H) field, and click OK.
+The motor WR2 will automatically be updated. Exit the Syn1 Synchronous Motor editor
+by clicking OK.
+
+Now you can run a Dynamic Motor Starting study. Click the Run Dynamic Motor
+Starting button on the Motor Starting toolbar to perform the study.
+
+Operation Technology, Inc.
+
+59
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+To view the plots that are generated as
+a result of a study, click the Motor
+Starting Plots button on the Motor
+Starting toolbar. The Motor Starting
+Plot Selection window will appear to
+allow you to choose which plots will
+be displayed. Select the plots you wish
+to view, or click OK to show all plots.
+
+The Motor Acceleration Analysis module of ETAP is an excellent tool to simulate and
+investigate motor acceleration scenarios.
+
+Operation Technology, Inc.
+
+60
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.7 Harmonic Analysis
+The purpose of this tutorial is to introduce the Harmonic Analysis module of ETAP. It will be shown how
+to discover resonant frequencies within a system, and also how to determine the magnitude of the
+harmonic disturbance. You will need to contact OTI with your Return Key Code so that you can activate
+this module.
+
+
+
+
+
+Switch to Harmonic Analysis mode by clicking on the Harmonic Analysis button on the Mode
+toolbar. ETAP has two analytical methods contained within the Harmonic Analysis mode.
+
+Open the Harmonic Analysis Study Case editor to change the calculation options for the study.
+On the Plot page, you can choose the elements that you wish to appear on the output plots and
+OLD.
+
+ Click on the Run Frequency Scan button on the Harmonic Analysis toolbar. If Prompt is selected,
+you will be prompted to enter a name for your output reports. Make sure that you run Harmonic
+Frequency Scan.
+
+Operation Technology, Inc.
+
+61
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+The impedance values calculated in the frequency scan are shown on the OLD. You can adjust
+the Frequency Slider to show the impedance value at different frequency intervals. For complete
+results, view the Output Reports or Plots. Note that the results shown on the OLD are for the
+buses selected for plotting in the Harmonic Analysis Study Case editor only.
+
+You can see the graphical results of the frequency scan by clicking on the Harmonic Analysis
+Plots button on the Harmonic Analysis toolbar, then selecting all of the previously chosen buses.
+One or all of the buses can be selected to appear on the plot(s).
+
+Operation Technology, Inc.
+
+62
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+The plots make it easy to determine if there are any resonant conditions in your system. As can be
+seen, there appears to be a resonance point at the 21st harmonic at the Sub 3 bus.
+
+To determine the severity of this resonance, you can run a Harmonic Load Flow study. Click the
+Run Harmonic Load Flow button on the Harmonic Analysis toolbar.
+
+Operation Technology, Inc.
+
+63
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Overall, the results on the OLD show very little total harmonic distortion at bus Sub 3. You can
+open a plot to see further details by clicking on the Harmonic Analysis Plots button as was done
+previously.
+
+The Harmonic Analysis module of ETAP allows you to determine the severity of any harmonics
+in your system, and from there you can decide how to correct a problem, if necessary.
+
+Operation Technology, Inc.
+
+64
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.8 Transient Stability Analysis
+The purpose of this tutorial is to introduce the Transient Stability Analysis module of ETAP. It will
+demonstrate how to simulate events and actions that are the cause of system transients. You will need to
+contact OTI with your Return Key Code so that you can activate this module.
+
+
+
+
+
+
+
+Switch to Transient Stability mode by clicking on the Transient Stability Analysis button on the
+Mode toolbar.
+
+Open the Transient Stability Study Case editor by clicking on the Edit Study Case button on the
+Study Case toolbar. From the Transient Stability Study Case editor you can add, modify, and
+delete transient-causing events.
+
+Open the Events page by clicking on the Events tab. There are two events that have been entered:
+Event 1, a fault occurring at time t=0.5 seconds, and Event 2, the fault being cleared, occurring at
+time t=0.7 seconds. You can add, modify, or delete both events and actions within these events
+here in this editor page.
+
+Operation Technology, Inc.
+
+65
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Every event needs at least one action. You can modify an event action by clicking on the Edit
+(Action) button. You can choose any number of options from the Action editor. Click OK to save
+data and exit the Action editor, and click again on OK to save and exit the Transient Stability
+Study Case editor.
+
+In the Transient Stability Study Case editor, you can select the method by which induction and
+synchronous machines are modeled on the Dyn Model tab. You can also select the devices for
+plotting and displaying in the OLD on the Plot page.
+
+Operation Technology, Inc.
+
+66
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Now run a Transient Stability Analysis on this system by clicking on the Run Transient Stability
+button on the Transient Stability toolbar. You will be prompted to enter a name for your output
+reports, if Prompt is selected.
+
+The results of the study can be seen for selected elements on the OLD. The Transient Stability
+Time Slider tool can be used to view the results at any time over the selected study period.
+
+Operation Technology, Inc.
+
+67
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+
+
+Graphical results can be viewed by using the Transient Stability Plots. Click this button on the
+Transient Stability toolbar. Choose the type(s) of plot that you would like to display by checking the
+appropriate boxes on the right side of the window that appears.
+
+
+
+With the Transient Analysis module of ETAP, you can easily create multiple transient scenarios,
+so that you can better evaluate the response that your system will have.
+
+Operation Technology, Inc.
+
+68
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.9 Protective Device Coordination (Star)
+This tutorial provides a brief overview of the basic operation of the Star Protective Device Coordination
+module. It will cover how to create a new Star View and how to add a new device to an existing Star
+View. You will need to contact OTI with your Return Key Code so that you can activate this module.
+
+Creating a New Star View
+
+
+Start ETAP Demo and select the option “New Project” for this tutorial.
+
+
+
+Click the Edit button on the Mode toolbar.
+
+
+
+
+
+
+
+Click the Overcurrent Relay button
+presentation.
+
+from Edit toolbar and drop it into the OLV1
+
+Double-click the Overcurrent Relay element to open the Relay editor.
+Go to the OCR page and
+then click the Library
+button. This will display
+the Library Quick pick Relay dialog box. Select
+manufacturer GE
+Multilin and model
+735/737 and click OK.
+GE Multilin 735/737
+relay data is populated
+in the OCR page.
+Set the relay as shown in
+the figure; ensure that
+‘Link TOC + IOC for
+this level is checked for
+OC1. To learn more
+about relay settings,
+refer to the Relay
+section in
+Instrumentation
+Elements chapter of the
+User Guide or click the
+Help button.
+
+Operation Technology, Inc.
+
+69
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Click the Input page. Enter primary and secondary ratings for Phase CT (800:5) and Ground CT
+(50:5) as shown below. CT ratios can be entered directly in the Relay Editor where no CT is
+connected to the relay. You will need to drop a CT into the one-line-diagram under Edit Mode
+and connect the Relay to the CT before running calculations but viewing a TCC curve does not
+require the presence of a CT.
+
+From the Mode toolbar, click the Star – Protective Device Coordination button to switch to the
+Star mode.
+
+To generate the Star View, select the relay, and then click the Create Star View button from the
+right-hand side Star Mode toolbar.
+
+Operation Technology, Inc.
+
+70
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+This opens a new Star TCC View with the selected Relay1 curve. Star Views for other protective
+devices can be generated in a similar manner. Keep Star1 open for the next section of the tutorial.
+Right click on the label tag associated with the curve and check the Settings options. This will
+show more infromation related to the relay settings in the label tag.
+
+Operation Technology, Inc.
+
+71
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Adding a Device Curve to a Star View
+
+
+
+
+
+Switch to Edit mode
+
+and then drop a fuse into the one-line-diagram view OLV1.
+
+Double-click the fuse symbol
+to open the Fuse editor. Go to the Rating page and click the
+Library button to display the Library Quick Pick – Fuse dialog box. Select manufacturer S&C,
+and model SMU-20, at 27 Max. kV, with standard speed and size 13E.
+
+Switch to Star Mode
+using the Mode
+toolbar. Select Fuse1 and click on Append
+to Star view button
+to open the Star
+View Selection editor. Select Star1to append
+Fuse1 to Star1 view and click OK.
+
+Operation Technology, Inc.
+
+72
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Star1 view opens with the Fuse1
+curve added. Element or group
+of elements on the one-linediagram can be appended to one
+or more Star views in a similar
+manner.
+
+☺Helpful Tips…
+A faster method to add a new
+device to a star view is to
+select the device on the oneline-diagram, hold the Shift
+key down, and drag it to the
+active Star View.
+The color of each TCC curve
+can be assigned by pressing the
+Plot Options button on the
+right hand toolbar.
+
+Operation Technology, Inc.
+
+73
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Now you will learn how to access a Star View for an existing ETAP one-line diagram.
+1. Exit the ETAP 14 Demo and restart it again. From the Select Demo Project Screen (second screen),
+select Example Project (ANSI).
+
+2. From the Select Access Level Screen (fourth screen), select Project editor.
+
+3. When the one-line diagram opens, switch to the Relay View presentation using the Presentation
+drop-down list.
+
+Operation Technology, Inc.
+
+74
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+4. Switch to Protective Device Coordination (Star) mode using the Mode toolbar.
+
+5. Click on the Run / Update Short-Circuit Clipping kA from the Star (PD
+Coordination) toolbar. This will perform a ½ cycle 3 phase and line-toground short-circuit study for the faulted buses and update the clipping
+current for the connected protective devices accordingly.
+
+Operation Technology, Inc.
+
+75
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6. Open the Low Voltage Circuit Breaker editor for CB22 and go to the TCC kA tab.
+
+7. The short circuit current and base kV values are updated in the Low Voltage Circuit Breaker editor as
+shown above.
+8. Click on Star Systems from the System toolbar.
+
+9. Select Bus 1 – TCC from the Presentation toolbar.
+
+Operation Technology, Inc.
+
+76
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+The following TCC curve will appear:
+
+You can create TCC curves from an existing one-line diagram, just as the one shown above by simply
+following the steps shown below:
+
+Operation Technology, Inc.
+
+77
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+Creating TCC curves from an existing one-line diagram.
+1. Highlight or rubber-band the path for which the Star view has to be created.
+
+2. Click on the ‘Create Star View’ button from the Star (PD Coordination) toolbar.
+
+Operation Technology, Inc.
+
+78
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+The following TCC curve will appear:
+
+By clicking on the ‘TCC Plot Options’ tool or double-clicking on the Star View background, the display
+options can be opened in order to customize colors, line styles, axis settings, legend, device labels, etc.
+Keep the Relay View presentation open in Star mode for the next section of this tutorial.
+
+Star Sequence-of-Operation
+With ETAP Star, not only can you work with the time-current curves, you can also determine the
+operating time of protective devices simply by placing a fault on the one-line diagram. The sequence of
+operations are automatically calculated and listed in an Event Viewer, which is dynamically linked with
+the one-line diagram. This one-step concept utilizes the intelligent one-line diagram and performs a
+complete set of actions to determine the operation of all protective devices. This includes internal shifting
+(normalizing) of each time-current characteristic curve based on the individual fault contribution level.
+
+Operation Technology, Inc.
+
+79
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+1. Click on the Fault Insertion (PD Sequence-of-Operation) from the Star (PD Coordination) toolbar and
+drop it on Bus1.
+
+Operation Technology, Inc.
+
+80
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+2. Click on the Sequence Viewer from the Star (PD Coordination) toolbar. The Viewer displays a
+tabulated sequence summary list of actions for the applicable protective devices.
+3.
+
+Operation Technology, Inc.
+
+81
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.10 Optimal Power Flow Analysis
+The purpose of this tutorial is to introduce the Optimal Power Flow Analysis module of ETAP. As an
+example, it will be shown how to determine the optimal settings of system transformers. You will need to
+contact OTI with your Return Key Code so that you can activate this module.
+
+
+
+
+
+
+
+
+
+Switch to Optimal Power Flow Analysis mode by clicking on this button on the Mode toolbar.
+
+Open the Optimal Power Flow Study Case editor by clicking on the Edit Study Case button on
+the Study Case toolbar.
+
+Open the Objective page to enter the purpose of your study by clicking on the Objective tab of the
+editor.
+
+To enter the constraints and controls of the study, use the remaining pages of the Optimal Power
+Flow Study Case editor. Eligible system elements can be selected or deselected.
+
+Operation Technology, Inc.
+
+82
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Run an Optimal Power Flow study by clicking on the Run Optimal Power Flow button on the
+OPF toolbar. You will be prompted to enter a name for your output reports, if Prompt is selected.
+
+The results of the OPF study will appear in the OLD. For complete results, view the Output
+Reports. The amount of information that is displayed on the OLD can be changed in the Display
+Options. Note a new tap setting for transformer T2 is recommended.
+
+Optimizing your system to fit a set of specified constraints is now possible with ETAP. The
+Optimal Power Flow Analysis module allows you to find the most advantageous way to configure
+your system.
+
+Operation Technology, Inc.
+
+83
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.11 Reliability Analysis
+The purpose of this tutorial is to introduce the Reliability Analysis module of ETAP. It will be shown
+how to run a study, enter equipment reliability data, and view the results of your study. You will need to
+contact OTI with your Return Key Code so that you can activate this module.
+
+
+
+
+
+
+
+Switch to the Reliability Analysis mode by clicking on the Reliability Assessment button on the
+Mode toolbar.
+
+Select the study case named RA from the Study Case toolbar. To view or modify the conditions
+for the study, open the Reliability Analysis Study Case editor by clicking on the Edit Study Case
+button.
+
+The reliability data for each element in your system can be viewed or modified within each
+element’s editor. This data can be picked from a library or entered manually.
+
+Operation Technology, Inc.
+
+84
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Run a reliability study by clicking on the Run Reliability Assessment button on the Reliability
+Analysis toolbar. If Prompt is selected, you will need to enter a name for your output reports.
+
+The results of the reliability study are shown on the OLD. The amount of data shown can be
+changed using the Display Options.
+
+To view the resultant data and indexes for your system, you can open the Output Reports by
+clicking on the Report Manager button on the Study Case toolbar.
+
+Determining the possibility of failure
+for different points in a system can
+accurately be accomplished with the
+Reliability Assessment module of
+ETAP. This can lead to conclusions on how to
+increase the overall reliability of your system.
+
+Operation Technology, Inc.
+
+85
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.12 DC Load Flow Analysis
+The purpose of this tutorial is to introduce the DC Load Flow Analysis module of ETAP. Modifications
+to the DC Load Flow Study Case editor will be made, and the benefits of creating different loading
+scenarios will be investigated. You will need to contact OTI with your Return Key Code so that you can
+activate this module.
+
+
+
+
+
+
+
+Switch to DC Load Flow Analysis mode by clicking on the DC Load Flow Analysis button.
+
+Open the DC Load Flow Study Case editor by clicking on the Edit Study Case button on the
+Study Case toolbar.
+
+The study parameters and limitations are specified in the Study Case editor. Click the
+Charger/UPS Operating Load box to update the Charger and UPS editors. Now, when a DC Load
+Flow study is performed, the Charger and UPS editors will reflect the calculated operating load.
+Also, check the Report Critical and Marginal Voltage boxes.
+
+Operation Technology, Inc.
+
+86
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Run a DC Load Flow study by clicking on the Run DC Load Flow button on the DC Load Flow
+toolbar.
+
+The results of the Load Flow calculation will appear in the OLD. Note that only flows to and
+from DC elements are shown. The amount of data displayed in the OLD can be changed using the
+Display Options. For complete result data, use the Output Reports. As with the AC Load Flow
+Analysis mode, a magenta colored bus represents a marginally under- or over-voltage condition,
+and a red colored bus represents a critical voltage condition.
+
+Operation Technology, Inc.
+
+87
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Open the editor of Charger1 by double-clicking on the element graphic in the OLD. Click the
+Loading tab to open the Loading page. Note that the calculated Charger loading that appears in
+the OLD is also present here, as a result of the change made in the DC Load Flow Study Case
+editor. Click the Info tab to return to the Info page. Disconnect the Charger by clicking on the Out
+of Service box. Click OK to save and exit the editor.
+
+Open the editor of UPS-1 by double-clicking on the element graphic. On the Info page of the UPS
+Editor, click the Out of Service box to disconnect the UPS. Now the only power source in the DC
+system is a battery.
+
+Operation Technology, Inc.
+
+88
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+If you run the DC Load Flow calculation again, you will be able to see the loading that will be
+placed on the battery under these conditions. Click the Run DC Load Flow Analysis button to run
+the study again. Note that this situation results in critically under-voltage buses. Conclusions may
+be drawn from creating scenarios such as this.
+
+Operation Technology, Inc.
+
+89
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+This is an example of a simple way to simulate a loss-of-power scenario in your facility. ETAP
+allows you to creatively customize scenarios to suit your needs.
+
+Operation Technology, Inc.
+
+90
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.13 DC Short-Circuit Analysis
+The purpose of this tutorial is to introduce the DC Short-Circuit Analysis module of ETAP. It will also be
+shown how to create and save multiple study cases in the same project file. You will need to contact OTI
+with your Return Key Code so that you can activate this module.
+
+
+
+
+
+
+
+Switch to DC Short-Circuit mode by clicking on the DC Short-Circuit Analysis button on the
+Mode toolbar.
+
+Buses can be selected to be faulted or not by simply right-clicking on them and selecting Fault or
+Don’t Fault. Buses can also be selected for faulting from the Info page of the DC Short-Circuit
+Study Case editor. Deselect DcBus1 as a bus to be faulted.
+
+Run a DC Short-Circuit study by clicking on the Run DC Short-Circuit button on the DC ShortCircuit toolbar. If Prompt is selected, you will be prompted to enter a name for the output reports.
+
+Operation Technology, Inc.
+
+91
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+The results of the study will be displayed on the OLD. The amount of data displayed can be
+changed in the Display Options. Full results can be viewed in the Output Reports.
+
+
+
+You can create a new study case, based on the same OLD. Make the Project Editor the active
+window. Then, right-click the DC Short-Circuit study case folder, and select Create New. A new number
+will appear beside the folder, indicating the total number of study cases.
+
+
+
+Operation Technology, Inc.
+
+92
+
+Select the new study case from the drop-down
+menu on the Study Case toolbar. Click the Study
+Case Editor button to open the new study case
+editor.
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Give the new study case a name in the Study Case ID field on the Info page. Next, set up the
+study case conditions by selecting the desired criteria. Click OK to save the setup and exit the
+editor.
+
+Now you can run a DC Short-Circuit Analysis with the new study case, by clicking on the Run
+DC Short-Circuit button on the DC Short Circuit toolbar as it was done previously. Note the
+change in fault current contribution from the charger.
+
+With ETAP, you can easily create and save many different study case conditions, all within a
+single project file. By means of a simple drop-down menu, changing from one case to another is
+fast, and makes the comparison of results effortless.
+
+Operation Technology, Inc.
+
+93
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.14 Battery Sizing and Discharge
+The purpose of this tutorial is to introduce the Battery Sizing and Discharge module of ETAP. Two
+functions can be performed within this module: You can determine the cell size necessary for your system
+with the Battery Sizing calculation, or analyze the performance of the existing battery with the Battery
+Discharge calculation. You will need to contact OTI with your Return Key Code so that you can activate
+this module.
+
+
+
+
+
+Switch to Battery Sizing and Discharge Analysis mode by clicking on the Battery Sizing
+Discharge button on the Mode toolbar.
+
+Open the Battery Sizing Study Case editor by clicking on the Edit Study Case button. This will
+allow you to choose the battery that is to be sized and to establish your sizing criteria. Choose
+Battery1 and click OK to accept the criteria defaults.
+
+Operation Technology, Inc.
+
+94
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Run a Battery Sizing study by clicking on the Run Battery Sizing button on the Battery Sizing
+toolbar. You will be prompted to enter a name for your output reports, if Prompt is selected.
+
+Once the calculation has completed, the recommended sizing data will be displayed in the OLD.
+Complete results are shown in the Output Reports. Note that this calculation used loading data
+from an internal load flow calculation. For convenience, the Battery Discharge Time-Slider
+allows you to view the power flows at any time interval.
+
+You can also run a study based on a load summation method. You can change the method on the
+Info page of the study case editor. To modify the duty cycle of a piece of equipment, open the
+Element editor and click the Duty Cycle page. The duty cycle is a user-defined field that can be
+entered to reflect manufacturer or design specifications. A graphical summary of the each duty
+cycle is automatically shown.
+
+Operation Technology, Inc.
+
+95
+
+ETAP 14 Demo
+
+Getting Started
+
+Operation Technology, Inc.
+
+Analysis Capabilities
+
+96
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Run a Battery Discharge study based on the existing battery characteristics by clicking on the
+Run Battery Discharge button on the Battery Sizing toolbar. The Battery Discharge Time-Slider
+may again be used to view the flow from the battery at any time interval.
+
+The discharge plots can be viewed by clicking on the Battery Discharge Plots button on the
+Battery Sizing toolbar. The plots are an excellent way to analyze your results.
+
+The Battery Sizing and Discharge module of ETAP allows you to analyze your most reliable
+source of backup power effectively. Showing results in both numerical and graphical form, the
+results from ETAP are easily interpreted.
+
+Operation Technology, Inc.
+
+97
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.15 Underground Raceway Systems
+The purpose of this tutorial is to introduce the Underground Raceway Systems component of ETAP. It
+will be shown how to build a basic system, as well as perform calculations using an existing system. This
+module is disabled in the demo version.
+
+
+
+
+
+Switch to the Project View window by clicking the Window button at the top of the screen, and
+selecting the appropriate choice.
+
+Right-click the U/G Raceway Systems folder to begin a new Underground Raceway System.
+Select Create New by clicking on this. A new UGS window will appear, entitled “UGS3.”
+
+Operation Technology, Inc.
+
+98
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Add a raceway by clicking on one of the four types of raceway buttons on the Edit toolbar.
+
+Add a new conduit to this raceway by clicking on the New Conduit button on the Edit toolbar.
+Your UGS view should now look like this:
+
+
+
+You can continue to add elements in this manner until your system is complete.
+
+
+
+Switch to the existing “UGS1” by clicking on Window and selecting UGS1.
+
+Operation Technology, Inc.
+
+99
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+To perform cable derating calculations based on the active underground raceway system, click the
+U/G Cable Raceways button on the Mode toolbar.
+
+Double-click the “soil” (the background of the UGS window) to open the Underground System
+editor. Here you can enter the temperatures that your calculations will be based on.
+
+Switch back to the U/G Cable Raceways and run a Cable Derating calculation (Steady State
+Temp.) by clicking on one of the five calculation buttons on the Cable Derating toolbar.
+
+Operation Technology, Inc.
+
+100
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+To show the results, click the report manager icon in the toolbar and select a summary report. The
+calculated optimal cable sizes appear here.
+
+Operation Technology, Inc.
+
+101
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.16 Ground Grid Systems
+The purpose of this tutorial is to introduce the Ground Grid System component of ETAP. An overview of
+how to build a new ground grid system will be given. This module is disabled in the demo version.
+
+
+
+
+
+
+
+The Ground Grid Systems Presentation is a separate application within ETAP. You can create
+new grid systems by clicking on the Ground Grid element button on the AC Edit toolbar and then
+clicking in your OLV to place the element. Double-click the grid graphic in the OLV to open the
+Ground Grid Presentation window. Choose a default calculation method to begin.
+
+The Ground Grid Presentation will appear in a new window. Select a pre-defined grid by clicking
+on a choice from the IEEE toolbar. Click anywhere on the bottom blank section of the window to
+place the grid.
+
+The Ground Grid Presentation window will now appear as below.
+
+Operation Technology, Inc.
+
+102
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+To add or remove rods or conductors from the grid, double-click within the T-Shape. On the
+Conductor page, you can change the number of conductors lying uniformly in the horizontal or
+vertical direction. On the Rods page, you can select a grounding rod configuration.
+
+To view a three-dimensional display of the
+grid, use the scroll bars in the upper left
+corner of the Ground Grid Presentation
+window. For an automatic rotation
+around the vertical axis, double-click
+on the 3-D display.
+You can also modify the resistivity and
+thickness of the layers of soil underneath
+your grid. Double-click anywhere in the soil
+portion, in the upper right corner of the Ground Grid Presentation. The Soil editor will appear.
+
+Operation Technology, Inc.
+
+103
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Switch to calculation mode by clicking on the Ground Grid Study button on the Mode toolbar.
+Run a ground grid calculation by clicking this button on the Ground Grid toolbar.
+
+The Summary and Alert window appears after the calculation has completed, notifying you of
+any exceeded conditions.
+
+Operation Technology, Inc.
+
+104
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.17 Cable Pulling Systems
+The purpose of this tutorial is to introduce the Cable Pulling module of ETAP. It will be shown how to
+model a pull path, and how to run a calculation to determine the sidewall pressure and total tensions. This
+module is disabled in the demo version.
+
+
+
+
+
+To begin a Cable Pulling study, activate the Project Editor view.
+Double-click the Cable Pulling Systems folder and select any
+existing study presentation. To create a new system, right-click on
+the Cable Pulling Systems folder and select Create New.
+
+The characteristics of the pull can be outlined in the Study Case editor. To open this, click the
+Edit Study Case button on the Study Case toolbar. Set up the study conditions then click OK to
+save data and exit the editor.
+
+Operation Technology, Inc.
+
+105
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+
+
+Analysis Capabilities
+
+To open the Conduit editor, double-click the conduit in the upper right portion of the Cable
+Pulling Presentation window. Set up the physical characteristics of the conduit, or leave defaults
+and click OK to save data and exit.
+
+To add a cable to the conduit, click either the New Cable or Existing Cable button, and then click
+your mouse inside the conduit. The added cable will appear inside the conduit. To set up cable
+characteristics, double-click the cable. The Cable editor will be shown. To delete a cable from the
+conduit, simply click to select the cable, and press the delete key.
+
+To add another segment of conduit to your pull path, click the New Segment button.
+
+The physical characteristics of the routing itself can be entered using the fields in the bottom half
+of the Cable Pulling Presentations window. As the data is entered, the 3-D display in the upper
+left portion of the window will show the modifications.
+
+Operation Technology, Inc.
+
+106
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+
+
+Analysis Capabilities
+
+Now that a pull path is laid out, you can run a calculation to determine the maximum tensions for
+your system. Click the Calc Cable Pull button to begin the calculation. You may be prompted to
+enter a name for your output reports.
+
+If any specified condition on the study is exceeded, the Summary and Alert window will appear
+and the Alarm or Warning message will be shown.
+
+The more detailed results of the calculation can be found below the input routing data. Note that
+exceeded conditions will be displayed in red.
+
+The Cable Pulling Systems Presentation of ETAP makes planning or designing a new cable
+routing easy. Detailed data entry allows complex pull path geometry to be outlined, and therefore
+an accurate solution is obtained.
+
+Operation Technology, Inc.
+
+107
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.18 Panel Systems
+The purpose of this tutorial is to introduce the Panel Systems module of ETAP. It will be shown how to
+connect panels to buses and to other panels, as well as how to enter loading data into the Panel Schedule
+page. Note that you cannot add new panels in this demo, but you can browse the existing panels in the
+example project.
+
+
+
+
+
+
+
+Ensure that you are in Edit mode. Open the composite network Sub3 Net by double-clicking on it.
+
+Connecting a panel to a bus is the same as with any other OLD element. The default connection
+pin of each panel is the top connector. Note how Panel11 is connected.
+
+Double-click Panel11 to open the Panel editor. On the Info page, notice the panel is a three-phase
+element. On the Rating page, you will see that the rated voltage is 0.48kV to match the connected
+bus voltage.
+
+Operation Technology, Inc.
+
+108
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+On the Schedule page, the individual panel slots can be filled by clicking on the corresponding
+Link box, and selecting an option from the drop-down menu. If you want to connect a slot to an
+external element, choose one of the four Ext-X slots. Note connections #2 and #8 are designated
+external. The Summary page of the Panel Schedule editor details the total loading on the panel.
+
+If you have a 3-phase panel and would like to attach a 3-phase load to it, you need to change the
+number of poles. As a result, three slots are used in the panel.
+
+Operation Technology, Inc.
+
+109
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+Analysis Capabilities
+
+Add another panel to the OLD by following the steps above. You can connect this panel to an
+existing one by moving your mouse over the new panel’s connection pin and dragging it to the
+pin specified in the Panel Schedule of the existing panel (Ext-2).
+
+Using the Load Flow Analysis Study Case editor, you can perform load flow calculations on your
+panel system. Click the Load Flow Analysis button on the Mode toolbar. Then click the Edit
+Study Case button on the Study Case toolbar. Check the box entitled Calc Panel Systems.
+
+Operation Technology, Inc.
+
+110
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+Analysis Capabilities
+
+From here you can run a Load Flow study on your panel system in ETAP as outlined in the Load
+Flow Analysis tutorial. Select to toggle the Results for Panel and UPS systems on the right-hand
+toolbar to toggle the results. Note the power flows to and from the panels.
+
+Operation Technology, Inc.
+
+111
+
+ETAP 14 Demo
+
+Getting Started
+
+Analysis Capabilities
+
+6.19 Output Reports
+The purpose of this tutorial is to introduce the functions of the Output Reports in ETAP. The basic
+functions of displaying and printing the Crystal Reports will be shown, as well as more advanced features
+such as exporting report data to other programs and using the Text Report function.
+
+
+
+
+
+Open your project file in ETAP and run a study. For the purposes of this tutorial, a Load Flow
+Analysis has been used. After the calculation has completed, choose a report from the drop-down
+list in the Study Case toolbar, and click the Report Manager button to display the selected report.
+
+Alternatively, to display single or multiple reports at once, click the Report Manager button on
+the current Analysis toolbar. (In this case, it is the Load Flow toolbar.)
+
+Note: As many as one report from each
+of the tabs in the Report Manager can be
+displayed.
+
+Operation Technology, Inc.
+
+112
+
+ETAP 14 Demo
+
+Getting Started
+
+
+
+
+
+
+
+Analysis Capabilities
+
+The selected report will automatically display in a new window. To navigate through the report,
+use the arrows at the top of the window. To print a Crystal Report, click the Print button at the top
+of the window, and select your options from the resulting window.
+
+Another useful function of the Output Reports is the option to export the result data to another
+program. Adobe Acrobat Reader, Microsoft Excel, and Microsoft Word are just a few of the
+programs to which output data can be exported. Select an application to receive the data in the in
+the Load Flow Report Manager. Then click OK.
+
+The Output Reports and associated tools of ETAP are a fast and effective way to organize your
+analysis results. They make it easy to prepare presentations and summary documents by which to
+display your findings.
+
+Operation Technology, Inc.
+
+113
+
+ETAP 14 Demo
+
+
